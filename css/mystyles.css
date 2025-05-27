@@ -1,0 +1,217 @@
+body {
+    font-family:'Noto Sans TC',serif;
+    line-height: 2;
+}
+
+main {
+    background-color: #f4f6f8;
+}
+
+.main-title {
+    font-family:'Libre Baskerville','Shippori Mincho',sans-serif;
+    line-height: 1.2;
+}
+
+:root {
+  --bs-primary: #1d3964;
+  --bs-primary-rgb: 29, 57, 100; /* RGB 對應 #1d3964 */
+}
+
+p {
+    color: black;
+}
+.conan {
+    background-color: blueviolet;
+}
+
+.fa-arrow-up-right-from-square {
+    margin-left: 20px;
+}
+
+.school h4 {
+    font-size: 20px;
+}
+
+.school {
+    border-radius: 10px;
+    background-color: #edf1f5;
+    padding: 30px;
+    box-shadow: 10px 10px 20px 12px #dddddd;
+    margin-bottom: 100px;
+}
+
+.school p {
+    margin: 0px;
+}
+
+.flex-grow-1 img {
+    border-radius: 10px;
+    background-color: #ffffef;
+    margin: 10px 0px;
+    box-shadow: 10px 10px 20px 12px #dddddd;
+    margin-bottom: 100px;
+}
+
+.photography {
+    display: grid;
+    width: 80%;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
+}
+
+.item01 {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-right: 6px solid #f5f4f5;
+}
+
+.item02 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 3px solid #f5f4f5;
+}
+
+.item03 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top: 3px solid #f5f4f5;
+}
+
+.schoolswork {
+    width: 50%;
+}
+
+.livesworksa {
+    margin: 10px 0px 100px 0px ;
+}
+
+.livesworksa a {
+    font-size: 25px;
+}
+
+.video {
+    margin-bottom: 100px;
+}
+
+.certificate {
+    width: 30%;
+    box-shadow: 10px 10px 20px 12px #dddddd;
+    margin-bottom: 100px;
+}
+
+.certificate2 {
+    width: 45%;
+    box-shadow: 10px 10px 20px 12px #dddddd;
+    margin-bottom: 100px;
+}
+
+#sideNav {
+    background: url(../assets/img/bg1.png) no-repeat right center/cover;
+}
+
+.container-fluid .p-0 {
+    width: 1920px;
+}
+
+.headli a {
+    color: #393939;
+}
+
+.headli a:hover {
+    color: #1d3964;
+}
+
+#sideNav .nav-link.active {
+    color: #f5f4f5 !important;
+    font-weight: bold;
+    background-color: #1d3964 !important;
+    border-left: 4px solid #f5f4f5;
+}
+
+.myname {
+    color: #1d3964;
+}
+
+#about {
+    background-image: url(../assets/img/homepage-decoration1.jpg);
+    background-repeat: no-repeat;
+    background-position: right 100%;
+    background-size: 43%;
+    transition-timing-function: ease-in;
+    transition: background-position 2.5s ease, background-image 2.5s ease;
+}
+
+#about.visible {
+    background-image: url(../assets/img/homepage-decoration2.png);
+    background-repeat: no-repeat;
+    background-size: 43%;
+    background-position: right 80%;
+}
+
+#callme {
+    background: url(../assets/img/bg2.PNG) no-repeat right center/cover;
+}
+
+.toTop-arrow {
+    position: fixed;
+    right: 4vw;
+    top:70%;
+    z-index: 1;
+    width: 55px; 
+    height: 55px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: rgba(255, 255, 255, 0);
+    text-indent: -9999px;
+    opacity: 0;
+    background-image: url(../assets/img/go-top.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 51% 48%;
+    transition: opacity 0.7s ease-in;
+    border: 0px;
+}
+.toTop-arrow.show {
+    opacity: 0.7;
+}
+.toTop-arrow:hover {
+    opacity: 1;
+}
+
+.school:hover {
+    margin-left: 20px;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+    transition-delay: 0ms;
+}
+
+@media (max-width: 992px) {
+    .d-block.d-lg-none {
+        color: #393939;
+    }
+}
+
+@media (max-width: 992px) {
+    .d-block.d-lg-none {
+        color: #393939;
+    }
+}
+
+@media (max-width: 576px) {
+    .video {
+        width: 90%;
+    }
+    .gamephoto {
+        width: 90%;
+    }
+}
